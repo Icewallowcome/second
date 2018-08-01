@@ -1,0 +1,27 @@
+.stripe-1 {
+  color: white;
+  background-image: linear-gradient(113deg, #c79797 25%, #ff8f8f 25%, #ff8f8f 50%, #c79797 50%, #c79797 75%, #ff8f8f 75%, #ff8f8f 100%);
+  background-size: 217.27px 511.86px;
+  border-style: solid;
+  margin: 28px 28px 28px 28px;
+  border-width: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 1;
+  left : 1;
+}
+
+.date {
+  margin-top: 10%;
+  font-size: 30rem;
+  text-align: center;
+}
