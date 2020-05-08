@@ -30,8 +30,8 @@ const height = button.offsetHeight + 240;
 const width = button.offsetWidth + 240;
 
 const buttonComponent = new FlyingComponent(x, y, height, width);
-buttonComponent.vx = 1;
-buttonComponent.vy = 0.5;
+buttonComponent.vx = 1,5;
+buttonComponent.vy = 1;
 
 const moveButton = (x, y) => {
   button.style.top = y;
