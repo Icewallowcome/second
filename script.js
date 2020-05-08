@@ -24,13 +24,13 @@ class FlyingComponent {
 const dateDiv = document.querySelector('.date');
 const button = document.querySelector('button');
 
-const x = 700;
-const y = 300;
+const x = 200;
+const y = 200;
 const height = button.offsetHeight + 240;
 const width = button.offsetWidth + 240;
 
 const buttonComponent = new FlyingComponent(x, y, height, width);
-buttonComponent.vx = 1,5;
+buttonComponent.vx = 1;
 buttonComponent.vy = 1;
 
 const moveButton = (x, y) => {
