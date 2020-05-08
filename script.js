@@ -56,7 +56,7 @@ function dateDiffInDays(a, b) {
 }
 
 // test it
-const a = new Date("2017-03-08"),
+const a = new Date("2020-04-22"),
     b = new Date(),
     difference = dateDiffInDays(a, b);
     dateDiv.innerHTML = `${difference}`;
