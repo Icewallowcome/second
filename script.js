@@ -26,8 +26,8 @@ const button = document.querySelector('button');
 
 const x = 200;
 const y = 200;
-const height = button.offsetHeight + 240;
-const width = button.offsetWidth + 240;
+const height = button.offsetHeight;
+const width = button.offsetWidth;
 
 const buttonComponent = new FlyingComponent(x, y, height, width);
 buttonComponent.vx = 1;
