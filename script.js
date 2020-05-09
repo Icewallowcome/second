@@ -45,6 +45,11 @@ const updateButton = () => {
 
 setInterval(updateButton, 6);
 
+button.onclick = function() { 
+  buttonComponent.vx += 2;
+  buttonComponent.vy += 2;
+}
+
 const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 // a and b are javascript Date objects
 function dateDiffInDays(a, b) {
