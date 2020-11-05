@@ -64,4 +64,4 @@ function dateDiffInDays(a, b) {
 const a = new Date("2020-04-22"),
     b = new Date(),
     difference = dateDiffInDays(a, b);
-    dateDiv.innerHTML = `Айдана, выздоравливай!`;
+    dateDiv.innerHTML = `Айдана выздоравливай!`;
